@@ -1,6 +1,6 @@
 # Monitoria TI — CEUB Taguatinga
 
-Site extraoficial da monitoria de TI do CEUB, campus Taguatinga.
+<a href="https://monitoriati-ceub-tagua.github.io/SiteMonitoria/index.html" target="_blank">🔗Site</a> extraoficial da monitoria de TI do CEUB, campus Taguatinga.
 
 O projeto é um site estático feito com HTML, CSS e JavaScript. Os conteúdos ficam nos arquivos JSON da pasta `data/`.
 
