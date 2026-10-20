@@ -1,0 +1,46 @@
+{
+  "_ajuda": "Monitores atuais e antigos (página Monitores e janela Participe). Foto e link do perfil saem do usuário do GitHub automaticamente. Para quem saiu da monitoria, mova o registro de \"atuais\" para \"antigos\". Em \"antigos\" basta escrever o usuário do GitHub entre aspas.",
+  "_campos": {
+    "nome": "nome público (se vazio, usa o usuário do GitHub)",
+    "github": "só o usuário. Ex.: \"Gustavo-Gomide\"",
+    "resumo": "opcional: apresentação curta",
+    "foto": "opcional: substitui a foto do GitHub (caminho em assets/images/ ou URL)",
+    "contatos": "opcional: canais extras na janela Participe. \"link\" aceita URL ou e-mail. O GitHub já aparece automaticamente"
+  },
+  "_modelo": {
+    "nome": "Nome Sobrenome",
+    "github": "usuario",
+    "resumo": "Monitor de TI no campus Taguatinga.",
+    "foto": "",
+    "contatos": [
+      { "rotulo": "E-mail", "link": "monitor@exemplo.com" }
+    ]
+  },
+  "atuais": [
+    {
+      "nome": "Gustavo Gomide",
+      "github": "Gustavo-Gomide",
+      "resumo": "Monitor de TI e colaborador da comunidade da monitoria no campus Taguatinga.",
+      "foto": "",
+      "contatos": []
+    },
+    {
+      "nome": "VictorRMRibeiro",
+      "github": "VictorRMRibeiro",
+      "resumo": "Monitor de TI da comunidade no campus Taguatinga.",
+      "foto": "",
+      "contatos": []
+    }
+  ],
+  "antigos": [
+    "brureads",
+    "Elizafc",
+    "Nunaa5",
+    "pedrodris",
+    "sati-e",
+    "hahahonline",
+    "Robert-Martins-S",
+    "AceEvann",
+    "GoGreco"
+  ]
+}

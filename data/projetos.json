@@ -1,0 +1,35 @@
+{
+  "_ajuda": "Repositórios da comunidade (página Projetos). Para adicionar: copie o _modelo, cole dentro de \"itens\" e preencha. Os projetos aparecem na ordem desta lista.",
+  "_campos": {
+    "titulo": "obrigatório",
+    "descricao": "obrigatório",
+    "situacao": "Planejada, Em andamento, Concluída ou Arquivada",
+    "repositorio": "dono/nome do repositório no GitHub. Se \"link\" ficar vazio, o link é gerado a partir dele",
+    "link": "opcional: substitui o link gerado",
+    "tags": "tecnologias. Ex.: [\"HTML\", \"CSS\"]",
+    "icone": "opcional. Opções: code, book, branch, terminal, database, game, layers, bulb, users, award",
+    "creditos": "nomes de quem contribuiu. Nome de monitor vira link para o GitHub automaticamente"
+  },
+  "_modelo": {
+    "titulo": "Nome do projeto",
+    "descricao": "O que o projeto faz e por que ele existe.",
+    "situacao": "Em andamento",
+    "repositorio": "MonitoriaTi-CEUB-Tagua/nome-do-repositorio",
+    "link": "",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "icone": "code",
+    "creditos": []
+  },
+  "itens": [
+    {
+      "titulo": "Site da Monitoria TI CEUB Taguatinga",
+      "descricao": "Site extraoficial da comunidade de monitoria de TI do campus Taguatinga, com conteúdos, propostas, projetos e informações para alunos.",
+      "situacao": "Em andamento",
+      "repositorio": "MonitoriaTi-CEUB-Tagua/site-monitoria-ceub",
+      "link": "https://github.com/MonitoriaTi-CEUB-Tagua",
+      "tags": ["HTML", "CSS", "JavaScript", "Web"],
+      "icone": "code",
+      "creditos": ["Gustavo Gomide"]
+    }
+  ]
+}

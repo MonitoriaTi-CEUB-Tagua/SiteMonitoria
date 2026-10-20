@@ -1,0 +1,38 @@
+{
+  "_ajuda": "Oficinas realizadas e projetos concluídos (página Conteúdos). Para adicionar: copie o _modelo, cole dentro de \"itens\" e preencha. A ordem no site é automática, do mais recente para o mais antigo. Campos opcionais podem ficar vazios (\"\" ou []).",
+  "_campos": {
+    "tipo": "\"oficina\" ou \"projeto\"",
+    "titulo": "obrigatório",
+    "descricao": "obrigatório",
+    "data": "AAAA-MM-DD ou DD/MM/AAAA",
+    "tags": "lista de assuntos, escritos como devem aparecer. Ex.: [\"Python\", \"Git\"]",
+    "link": "material, slides, pasta ou repositório. Vazio mostra \"Material em preparação\"",
+    "imagem": "capa opcional (caminho em assets/images/ ou URL)",
+    "icone": "opcional. Opções: book, code, branch, terminal, database, game, layers, bulb, users, award",
+    "creditos": "nomes de quem contribuiu. Nome de monitor vira link para o GitHub automaticamente. Também aceita {\"nome\": \"...\", \"link\": \"...\"}"
+  },
+  "_modelo": {
+    "tipo": "oficina",
+    "titulo": "Introdução ao Git",
+    "descricao": "Materiais e exercícios da oficina.",
+    "data": "2026-10-20",
+    "tags": ["Git", "Colaboração"],
+    "link": "",
+    "imagem": "",
+    "icone": "branch",
+    "creditos": ["Gustavo Gomide", "VictorRMRibeiro"]
+  },
+  "itens": [
+    {
+      "tipo": "projeto",
+      "titulo": "Site da Monitoria TI CEUB Taguatinga",
+      "descricao": "Repositório oficial da comunidade extraoficial, com conteúdos, projetos, propostas e informações para alunos de TI do campus Taguatinga.",
+      "data": "2026-10-06",
+      "tags": ["Web", "HTML", "CSS", "JavaScript", "Materiais"],
+      "link": "https://github.com/MonitoriaTi-CEUB-Tagua",
+      "imagem": "",
+      "icone": "code",
+      "creditos": ["Gustavo Gomide"]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Materiais de oficinas realizadas e resultados de projetos concluídos na comunidade de monitoria.">
+  <meta name="theme-color" content="#faf8fb" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121014" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
+  <meta property="og:title" content="Conteúdos · Monitoria TI">
+  <meta property="og:description"
+    content="Materiais de oficinas realizadas e resultados de projetos concluídos na comunidade de monitoria.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <title>Conteúdos · Monitoria TI — CEUB Taguatinga</title>
+  <link rel="icon" href="assets/svg/mark.svg" type="image/svg+xml">
+  <script>try{var t=localStorage.getItem("tema")}catch(e){}document.documentElement.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")</script>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <link rel="preload" href="components/header.html" as="fetch" crossorigin>
+  <script type="module" src="assets/js/app.js"></script>
+</head>
+
+<body data-page="contents">
+  <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo</a>
+  <div data-include="header.html"></div>
+  <noscript>
+    <div class="noscript">Ative o JavaScript para carregar os murais e contatos. Você também pode visitar <a
+        href="https://github.com/MonitoriaTi-CEUB-Tagua">o GitHub da monitoria</a>.</div>
+    <nav class="container" aria-label="Navegação sem JavaScript"><a href="index.html">Início</a> · <a
+        href="conteudos.html">Conteúdos</a> · <a href="ideias.html">Ideias e propostas</a> · <a
+        href="projetos.html">Projetos</a> · <a href="monitores.html">Monitores</a></nav>
+  </noscript>
+  <main id="conteudo-principal" tabindex="-1">
+    <header class="page-intro"><div class="container"><span class="eyebrow">Acervo</span><h1>Conteúdos</h1> <p>Materiais para continuar aprendendo depois das atividades: oficinas que já aconteceram e resultados de projetos concluídos.</p></div></header>
+    <section class="collection-section container" aria-label="Acervo de conteúdos">
+      <div class="filter-bar"><label class="search-field"><span class="sr-only">Buscar conteúdo ou assunto</span><span
+            class="input-shell"><span data-icon="search"></span><input type="search" data-search
+              placeholder="Buscar conteúdo ou assunto" autocomplete="off"></span></label></div>
+      <div class="filter-chips" role="group" aria-label="Filtrar conteúdos"><button class="chip"
+          data-filter-value="todos" type="button" aria-pressed="true">Todos</button><button class="chip"
+          data-filter-value="oficina" type="button" aria-pressed="false"></button><button class="chip"
+          data-filter-value="projeto" type="button" aria-pressed="false"></button></div>
+      <p class="result-count" data-result-count aria-live="polite" aria-atomic="true"></p>
+      <section class="content-group" data-content-group="oficina" aria-labelledby="workshops-title">
+        <h2 class="group-title" id="workshops-title">Oficinas realizadas</h2>
+        <p class="group-description">Explicações, exercícios, apresentações e referências dos encontros, com os créditos
+          de quem contribuiu.</p>
+        <div class="card-grid">
+          <p class="muted" data-loading role="status">Carregando…</p>
+        </div>
+      </section>
+      <section class="content-group" data-content-group="projeto" aria-labelledby="completed-title">
+        <h2 class="group-title" id="completed-title">Projetos concluídos</h2>
+        <p class="group-description">Entregas e aprendizados de projetos finalizados. Para explorar os repositórios,
+          visite <a href="projetos.html">Projetos</a>.</p>
+        <div class="card-grid">
+          <p class="muted" data-loading role="status">Carregando…</p>
+        </div>
+      </section>
+    </section>
+  </main>
+  <div data-include="footer.html"></div>
+  <div data-include="participate.html"></div>
+</body>
+
+</html>

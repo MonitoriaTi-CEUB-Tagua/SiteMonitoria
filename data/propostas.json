@@ -1,0 +1,32 @@
+{
+  "_ajuda": "Sugestões recebidas pelos monitores (página Ideias e propostas). Para adicionar: copie o _modelo, cole dentro de \"itens\" e preencha. A ordem no site é automática, pela atualização mais recente.",
+  "_campos": {
+    "titulo": "obrigatório",
+    "descricao": "obrigatório",
+    "situacao": "Recebida, Em análise, Planejada, Em andamento, Concluída ou Arquivada",
+    "tags": "lista de assuntos. Ex.: [\"Git\", \"Oficina\"]",
+    "atualizacao": "opcional: o que está sendo considerado (aparece em \"Ver acompanhamento\")",
+    "proximoPasso": "opcional",
+    "atualizadaEm": "AAAA-MM-DD ou DD/MM/AAAA"
+  },
+  "_modelo": {
+    "titulo": "Nome da proposta",
+    "descricao": "Resumo da sugestão e do que ela pretende ajudar a aprender.",
+    "situacao": "Recebida",
+    "tags": ["Assunto"],
+    "atualizacao": "",
+    "proximoPasso": "",
+    "atualizadaEm": "2026-10-20"
+  },
+  "itens": [
+    {
+      "titulo": "Oficina de GitHub",
+      "descricao": "Oficina para apresentar o GitHub, repositórios, colaboração e o fluxo básico de contribuição em projetos.",
+      "situacao": "Em andamento",
+      "tags": ["GitHub", "Colaboração"],
+      "atualizacao": "A oficina de GitHub está entre as atividades atuais da monitoria.",
+      "proximoPasso": "Definir a data, o roteiro e os materiais do encontro.",
+      "atualizadaEm": "2026-10-06"
+    }
+  ]
+}

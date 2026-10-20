@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Comunidade extraoficial dos monitores de TI do CEUB Taguatinga. Materiais, projetos e ideias para aprender em conjunto.">
+  <meta name="theme-color" content="#faf8fb" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121014" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
+  <meta property="og:title" content="Início · Monitoria TI">
+  <meta property="og:description" content="Comunidade extraoficial dos monitores de TI do CEUB Taguatinga. Materiais, projetos e ideias para aprender em conjunto.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <title>Início · Monitoria TI — CEUB Taguatinga</title>
+  <link rel="icon" href="assets/svg/mark.svg" type="image/svg+xml">
+  <script>try{var t=localStorage.getItem("tema")}catch(e){}document.documentElement.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")</script>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <link rel="preload" href="components/header.html" as="fetch" crossorigin>
+  <script type="module" src="assets/js/app.js"></script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo</a>
+  <div data-include="header.html"></div>
+  <noscript><div class="noscript">Ative o JavaScript para carregar os murais e contatos. Você também pode visitar <a href="https://github.com/MonitoriaTi-CEUB-Tagua">o GitHub da monitoria</a>.</div><nav class="container" aria-label="Navegação sem JavaScript"><a href="index.html">Início</a> · <a href="conteudos.html">Conteúdos</a> · <a href="ideias.html">Ideias e propostas</a> · <a href="projetos.html">Projetos</a> · <a href="monitores.html">Monitores</a></nav></noscript>
+  <main id="conteudo-principal" tabindex="-1">
+<section class="hero" aria-labelledby="home-title">
+  <div class="container home-intro">
+    <div class="home-presentation">
+      <span class="eyebrow">CEUB · Taguatinga · Brasília/DF</span>
+      <h1 id="home-title">Monitoria <span>de TI</span></h1>
+      <p class="home-subtitle">Um espaço para aprender, compartilhar e criar juntos.</p>
+      <p>Somos monitores de TI do CEUB de Taguatinga. Criamos este espaço extraoficial para aproximar os alunos, reunir materiais e dar lugar a dúvidas, ideias e projetos — com uma troca mais livre e sem burocracia desnecessária.</p>
+      <p>Você pode explorar o que já existe, pedir ajuda, sugerir assuntos ou encontrar pessoas para construir algo em conjunto. <strong>Não precisa chegar sabendo: quem está começando também faz parte.</strong></p>
+      <div class="actions">
+        <a class="btn btn--primary" href="conteudos.html">Explorar conteúdos <span data-icon="arrow"></span></a>
+        <a class="btn btn--outline" data-community-github href="https://github.com/MonitoriaTi-CEUB-Tagua" target="_blank" rel="noopener noreferrer"><span data-icon="github"></span>Nosso GitHub</a>
+      </div>
+    </div>
+    <aside class="community-guide" aria-labelledby="guide-title">
+      <h2 id="guide-title">Como funciona</h2>
+      <ol>
+        <li><strong>Explore e aprenda</strong><p>Consulte materiais em <a href="conteudos.html">Conteúdos</a> e conheça os repositórios em <a href="projetos.html">Projetos</a>.</p></li>
+        <li><strong>Traga sua dúvida ou ideia</strong><p>O botão <button class="inline-button" type="button" data-participate>Participe</button> reúne os contatos dos monitores atuais e as formas de colaborar.</p></li>
+        <li><strong>Acompanhe e colabore</strong><p>Veja as sugestões recebidas no <a href="ideias.html">mural de propostas</a>. Participe no seu ritmo, com código, materiais, revisões ou novas ideias.</p></li>
+      </ol>
+    </aside>
+  </div>
+</section>
+<div class="container home-updates">
+ <section aria-labelledby="recent-title"><div class="section-heading"><h2 id="recent-title">Conteúdos recentes</h2><a class="text-link" href="conteudos.html">Ver todos <span data-icon="arrow"></span></a></div><div class="summary-list" data-home-contents><p class="muted" data-loading role="status">Carregando…</p></div></section>
+ <section aria-labelledby="proposals-title"><div class="section-heading"><h2 id="proposals-title">Últimas propostas</h2><a class="text-link" href="ideias.html">Ver mural <span data-icon="arrow"></span></a></div><div class="summary-list" data-home-ideas><p class="muted" data-loading role="status">Carregando…</p></div></section>
+</div>
+<section class="container community-context" aria-labelledby="community-title">
+  <div class="section-heading"><h2 id="community-title">Sobre a comunidade</h2><a class="text-link" href="monitores.html">Conheça os monitores <span data-icon="arrow"></span></a></div>
+  <p class="community-description">O conhecimento cresce com a contribuição de cada pessoa. Este espaço valoriza os monitores atuais e também quem já passou pela monitoria — os nomes, perfis e contribuições continuam fazendo parte da nossa história.</p>
+  <div class="community-details">
+    <details class="disclosure"><summary>O que podemos aprender e construir por aqui?</summary><div class="details-content"><p>Programação, desenvolvimento web e mobile, banco de dados, jogos, inteligência artificial, sistemas, redes, segurança, Git e outros assuntos de TI que despertem o interesse dos alunos.</p><p>As oficinas realizadas e os projetos concluídos formam nosso acervo. Os repositórios têm uma área própria para explorar o código. Ideias de atividades, grupos de estudo e novos projetos podem ser enviadas aos monitores e acompanhadas no mural. Os temas crescem conforme o interesse e a disponibilidade da comunidade.</p></div></details>
+    <details class="disclosure"><summary>Como manter o ambiente leve?</summary><div class="details-content"><p>Nosso combinado é simples: respeito às pessoas e boas práticas. Pergunte sem receio, tenha paciência com quem está aprendendo e discorde sem diminuir ninguém.</p><p>Dê crédito a quem contribuiu, cuide de dados pessoais e não compartilhe senhas ou materiais sem autorização. Uma correção, uma boa pergunta ou uma explicação também são contribuições. Não há obrigação de frequência nem necessidade de chegar com uma proposta pronta.</p></div></details>
+    <details class="disclosure"><summary>Qual é a relação com o CEUB?</summary><div class="details-content"><p>Somos monitores de TI do CEUB de Taguatinga, mas este site e o perfil no GitHub são iniciativas extraoficiais. A proposta é facilitar a colaboração entre alunos e monitores. Informações acadêmicas, procedimentos e orientações institucionais continuam nos canais oficiais.</p></div></details>
+  </div>
+</section>
+  </main>
+  <div data-include="footer.html"></div>
+  <div data-include="participate.html"></div>
+</body>
+</html>

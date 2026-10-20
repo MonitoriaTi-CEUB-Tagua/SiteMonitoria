@@ -1,0 +1,82 @@
+/* Tokens de design. Cores semânticas: troque aqui para ajustar o tema inteiro. */
+:root {
+  color-scheme: light;
+  --header-height: 72px;
+  --container: 1160px;
+  --radius-sm: 8px;
+  --radius: 14px;
+  --radius-lg: 20px;
+  --font: "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Segoe UI Variable Display", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  --mono: ui-monospace, "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+  --ease: cubic-bezier(.2, .7, .2, 1);
+
+  --accent: #e51a85;
+  --brand: #42154e;            /* títulos, links e destaques em texto */
+  --brand-strong: #42154e;     /* fundo de botões primários */
+  --brand-strong-hover: #2c0c35;
+  --on-brand: #ffffff;
+  --brand-soft: #f4edf6;
+  --brand-soft-2: #ebdff0;
+
+  --bg: #faf8fb;
+  --surface: #ffffff;
+  --surface-2: #f6f2f8;
+  --header-bg: rgb(255 255 255 / 82%);
+  --ink: #241a29;
+  --muted: #6a5f70;
+  --line: #ebe4ee;
+  --line-strong: #dbcfe0;
+
+  --green: #23674c;
+  --green-bg: #e7f4ec;
+  --amber: #85591a;
+  --amber-bg: #fbf0da;
+  --blue: #2f5f8a;
+  --blue-bg: #e8f0f8;
+  --gray: #6a5f70;
+  --gray-bg: #f0edf2;
+
+  --shadow-sm: 0 1px 2px rgb(44 12 53 / 5%);
+  --shadow: 0 1px 2px rgb(44 12 53 / 4%), 0 12px 32px -12px rgb(44 12 53 / 16%);
+  --shadow-lg: 0 24px 80px -12px rgb(44 12 53 / 30%);
+  --glow-1: rgb(229 26 133 / 10%);
+  --glow-2: rgb(105 56 116 / 14%);
+  --grid-dot: rgb(66 21 78 / 9%);
+}
+
+/* Tema escuro: ativado por data-theme="dark" no <html> (sistema ou botão do cabeçalho). */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --accent: #ff4fa8;
+  --brand: #dcbcea;
+  --brand-strong: #7b3a8f;
+  --brand-strong-hover: #8f4ba4;
+  --brand-soft: #2a2030;
+  --brand-soft-2: #36293d;
+
+  --bg: #121014;
+  --surface: #1a161d;
+  --surface-2: #211b25;
+  --header-bg: rgb(18 16 20 / 78%);
+  --ink: #f2ecf4;
+  --muted: #b1a6b6;
+  --line: #2d2632;
+  --line-strong: #41374a;
+
+  --green: #8fd6b3;
+  --green-bg: rgb(64 160 115 / 16%);
+  --amber: #f0c674;
+  --amber-bg: rgb(220 160 60 / 15%);
+  --blue: #9cc5f0;
+  --blue-bg: rgb(80 140 210 / 16%);
+  --gray: #b1a6b6;
+  --gray-bg: rgb(255 255 255 / 7%);
+
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 30%);
+  --shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 14px 34px -14px rgb(0 0 0 / 60%);
+  --shadow-lg: 0 24px 80px -12px rgb(0 0 0 / 70%);
+  --glow-1: rgb(255 79 168 / 10%);
+  --glow-2: rgb(140 80 170 / 20%);
+  --grid-dot: rgb(255 255 255 / 6%);
+}
