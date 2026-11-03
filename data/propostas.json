@@ -20,13 +20,13 @@
   },
   "itens": [
     {
-      "titulo": "Oficina de GitHub",
-      "descricao": "Oficina para apresentar o GitHub, repositórios, colaboração e o fluxo básico de contribuição em projetos.",
+      "titulo": "Oficina de Git e GitHub",
+      "descricao": "Oficina prática para apresentar Git e GitHub, controle de versão, repositórios, colaboração e o fluxo básico de contribuição em projetos.",
       "situacao": "Em andamento",
-      "tags": ["GitHub", "Colaboração"],
-      "atualizacao": "A oficina de GitHub está entre as atividades atuais da monitoria.",
-      "proximoPasso": "Definir a data, o roteiro e os materiais do encontro.",
-      "atualizadaEm": "2026-10-06"
+      "tags": ["Git", "GitHub", "Colaboração", "Oficina"],
+      "atualizacao": "Repositório e site de referência preparados. As aulas da oficina começam nesta quarta-feira (04/11/2026).",
+      "proximoPasso": "Realização dos encontros práticos e acompanhamento dos participantes com o material de apoio.",
+      "atualizadaEm": "2026-11-03"
     }
   ]
 }

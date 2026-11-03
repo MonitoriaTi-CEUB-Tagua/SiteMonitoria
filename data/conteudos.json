@@ -24,6 +24,17 @@
   },
   "itens": [
     {
+      "tipo": "oficina",
+      "titulo": "Oficina de Git e GitHub",
+      "descricao": "Guia prático e site de referência da oficina de Git e GitHub da monitoria, com conceitos fundamentais de controle de versão, comandos essenciais e fluxo de trabalho colaborativo.",
+      "data": "2026-11-04",
+      "tags": ["Git", "GitHub", "Colaboração", "Oficina"],
+      "link": "https://monitoriati-ceub-tagua.github.io/Oficina_Git_Github/",
+      "imagem": "",
+      "icone": "branch",
+      "creditos": ["Gustavo Gomide", "VictorRMRibeiro"]
+    },
+    {
       "tipo": "projeto",
       "titulo": "Site da Monitoria TI CEUB Taguatinga",
       "descricao": "Repositório oficial da comunidade extraoficial, com conteúdos, projetos, propostas e informações para alunos de TI do campus Taguatinga.",
