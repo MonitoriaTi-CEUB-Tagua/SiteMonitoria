@@ -6,7 +6,7 @@ const pending = new Map();
 
 export async function readJSON(path) {
   if (!pending.has(path)) {
-    pending.set(path, fetch(new URL(path, SITE_ROOT)).then(response => {
+    pending.set(path, fetch(new URL(path, SITE_ROOT), { cache: 'no-cache' }).then(response => {
       if (!response.ok) throw new Error(`Não foi possível ler ${path}: HTTP ${response.status}`);
       return response.json();
     }));
